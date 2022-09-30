@@ -1,0 +1,344 @@
+@mixin button {
+    color: #fff;
+    border-color: #fff;
+    text-align: center;
+    position: relative;
+  }
+
+.caption {
+    @include button;
+  }
+
+body {
+    position: relative;
+    .header{
+        position: relative;
+    }
+    .content{
+        position: relative;
+        .background-first {
+            position: relative;
+            .container{
+                position: relative;
+                .row{
+                    position: relative;
+                    .head-text{
+                        position: relative;
+                        .head-1{
+                            h1{
+                                position: relative;
+                            }
+                            position: relative;
+                        }
+                        .head-2{
+                            p{
+                                position: relative;
+                            }
+                            position: relative;
+                        }
+                        .head-link{
+                            a{
+                                position: relative;
+                            }
+                            position: relative;
+                        }
+                    }
+                    
+                }
+            }
+
+        }
+        .befor-coach{
+            position: relative;
+            .container{
+                position: relative;
+                .heading{
+                    position: relative;
+                    .row{
+                        position: relative;
+                        .position-heading-text{
+                            position: relative;
+                            .desc{
+                                position: relative;
+                                .h2-b{
+                                    h2{
+                                        position: relative;
+                                    }
+                                    position: relative;
+                                }
+                                .p-b{
+                                    p{
+                                        position: relative;
+                                    }
+                                    position: relative;
+                                }
+                            }
+                        }
+
+                    }
+
+                }
+                .photo{
+                    position: relative;
+                    .row{
+                        position: relative;
+                        .position-photo-text{
+                            position: relative;
+                            .row{
+                                position: relative;
+                                .photo-img-1{
+                                    img{
+                                        position: relative;
+                                    }
+                                    position: relative;
+                                }
+                                .photo-img-2{
+                                    img{
+                                        position: relative;
+                                    }
+                                    position: relative;
+                                }
+                                .photo-text{
+                                    p{
+                                        position: relative;
+                                    }
+                                    position: relative;
+                                }
+                                .photo-img-3{
+                                    img{
+                                        position: relative;
+                                    }
+                                    position: relative;
+                                }
+                                .photo-img-4{
+                                    img{
+                                        position: relative;
+                                    }
+                                    position: relative;
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .formm{
+            position: relative;
+            .row{
+                position: relative;
+                .formm-position-text{
+                    position: relative;
+                    .formm-desc{
+                        position: relative;
+                        .h2-formm{
+                            h2{
+                                position: relative;
+                            }
+                            position: relative;
+                        }
+                        .p-formm{
+                            p{
+                                position: relative;
+                            }
+                            position: relative;
+                        }
+                    }
+                }
+                    .formm-position{
+                      position: relative;
+                    }
+
+            }
+        }
+        .more{
+            position: relative;
+            .container-fluid{
+                position: relative;
+                .container{
+                    position: relative;
+                    .more-content{
+                        position: relative;
+                        .more-heading{
+                            position: relative;
+                            .more-text{
+                                position: relative;
+                                .h2-more{
+                                    h2{
+                                        position: relative;
+                                    }
+                                    position: relative;
+                                }
+                                .p-more{
+                                    P{
+                                        position: relative;
+                                    }
+                                    position: relative;
+                                }
+                            }
+                        }
+                        .more-photo-1{
+                            position: relative;
+                            .pphoto-1{
+                                img{
+                                    position: relative;
+                                }
+                                position: relative;
+                            }
+                        }
+                        .more-photo-2{
+                            position: relative;
+                            .pphoto-2{
+                                img{
+                                    position: relative;
+                                }
+                                position: relative;
+                            }
+                        }
+                        .more-photo-3{
+                            position: relative;
+                            .pphoto-3{
+                                img{
+                                    position: relative;
+                                }
+                                position: relative;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .Master_Every{
+            position: relative;
+            .container{
+                position: relative;
+                .m-head{
+                    position: relative;
+                    .row{
+                        position: relative;
+                        .m-pos-text{
+                            position: relative;
+                            .m-text{
+                                position: relative;
+                                .h2-m{
+                                    h2{
+                                        position: relative;
+                                    }
+                                    position: relative;
+                                }
+                                .p-m{
+                                    p{
+                                        position: relative;
+                                    }
+                                    position: relative;
+                                }
+                            }
+                        }
+                    }
+                }
+                .m-content{
+                    position: relative;
+                    .row{
+                        position: relative;
+                    }
+                }
+            }
+        }
+        .photo-all{
+            position: relative;
+            .container-fluid{
+                position: relative;
+                .row{
+                    position: relative;
+                    .all{
+                        position: relative;
+                        .all-1{
+                            img{
+                                position: relative;
+                            }
+                            position: relative;
+                        }
+                        .all-2{
+                            img{
+                                position: relative;
+                            }
+                            position: relative;
+                        }
+                        .all-3{
+                            img{
+                                position: relative;
+                            }
+                            position: relative;
+                        }
+                        .all-4{
+                            img{
+                                position: relative;
+                            }
+                            position: relative;
+                        }
+                        .all-5{
+                            img{
+                                position: relative;
+                            }
+                            position: relative;
+                        }
+                        .all-6{
+                            img{
+                                position: relative;
+                            }
+                            position: relative;
+                        }
+                    }
+                }
+            }
+            .contact{
+                position: relative;
+                .container{
+                    position: relative;
+                    .row{
+                        position: relative;
+                        .contact-pos{
+                            position: relative;
+                            .contact-desc{
+                                position: relative;
+                                .h2-c{
+                                    h2{
+                                        position: relative;
+                                    }
+                                    position: relative;
+                                }
+                                .p-c{
+                                    p{
+                                        position: relative;
+                                    }
+                                    position: relative;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .company{
+                position: relative;
+                .containert{
+                    position: relative;
+                    .company-pos{
+                        position: relative;
+                        .row{
+                            position: relative;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        position: relative;
+        .container{
+            position: relative;
+            .row{
+                position: relative;
+            }
+        }
+    }
+}
