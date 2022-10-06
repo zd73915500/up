@@ -1,4 +1,4 @@
-@media only sreen and (max-width: 1200px){
+@media screen and (max-width: 1200px){
 
     body .content .company .container .company-pos .row .img img{
         display: none;
@@ -7,28 +7,25 @@
         transform: translate( -8%, -79%);
     }
     body .content .background-first .container .row .head-text .head-1 h1 {
-        position: relative;
-        font-size: 4px;
-        width: 80%;
-        text-align: center;
-        margin-left: 10%;
+        font-size: 20px;
+        width: 90%;
     }
 }
 
-@media only sreen and (max-width: 992px){
+@media only screen and (max-width: 992px){
     body .content .contact .container .row {
         transform: translate( -8%, -79%);
     }
 }
 
-@media only sreen and (max-width: 768px){
+@media only screen and (max-width: 768px){
 
 }
 
-@media only sreen and (max-width: 480px){
+@media only screen and (max-width: 480px){
 
 }
 
-@media only sreen and (max-width: 320px){
+@media only screen and (max-width: 320px){
 
 }

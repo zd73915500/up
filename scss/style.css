@@ -22,13 +22,8 @@ body .header a{
 body .content {
   position: relative;
 }
-body .content .background-first {
-  background: url(./images/s1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 200px;
-  position: relative;
+.background-first {
+  background: url(../images/s1.jpg); background-size: cover;background-repeat: no-repeat;background-position: center;padding: 200px;
 }
 body .content .background-first .container {
   position: relative;
@@ -226,7 +221,7 @@ body .content .more .container-fluid {
   position: relative;
   background: #ff5938;
   color: #fff;
-  padding: 120px 120px;
+  padding: 70px 120px;
   
 }
 body .content .more .container-fluid .container-fluid {
@@ -238,8 +233,7 @@ body .content .more .container-fluid .container-fluid .more-content {
   width: 100%;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
-  grid-row-gap: 34px;
-  grid-column-gap: 42px;
+  grid-row-gap: 30px;
 }
 body .content .more .container-fluid .container-fluid .more-content .more-heading {
   position: relative;
@@ -255,7 +249,8 @@ body .content .more .container-fluid .container-fluid .more-content .more-headin
   position: relative;
   font-size: 56px;
   width: 410px;
-  margin-left: 25px;
+  margin-top: 60px;
+  margin-left: 10%;
 }
 body .content .more .container-fluid .container-fluid .more-content .more-heading .more-text .p-more {
   position: relative;
@@ -263,11 +258,15 @@ body .content .more .container-fluid .container-fluid .more-content .more-headin
 body .content .more .container-fluid .container-fluid .more-content .more-heading .more-text .p-more P {
   position: relative;
   font-size: 20px;
-  width: 550px;
-  margin-left: 25px;
+  width: 504px;
+  margin-left: 10%;
 }
 body .content .more .container-fluid .container-fluid .more-content .more-photo {
   position: relative;
+}
+body .content .more .container-fluid .container-fluid .more-content .more-photo:hover .pphoto .aa {
+color: #000;
+background: #fff;
 }
 body .content .more .container-fluid .container-fluid .more-content .more-photo .pphoto {
   position: relative;
