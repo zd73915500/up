@@ -12,6 +12,7 @@ body .header {
 }
 body .header a{
   color: #fff;
+  margin: 0px 3px;
 }
 .body .header .right {
 }
@@ -19,6 +20,11 @@ body .content {
   position: relative;
 }
 body .content .background-first {
+  background: url(./images/s1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 200px;
   position: relative;
 }
 body .content .background-first .container {
@@ -173,7 +179,7 @@ body .content .formm {
   position: relative;
   padding: 40px 0 120px;
 }
-body .content .formm .row {
+body .content .formm {
   position: relative;
   display: flex;
   justify-content: flex-start;
@@ -228,7 +234,8 @@ body .content .more .container-fluid .container-fluid .more-content {
   width: 100%;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
-  grid-column-gap: 32px;
+  grid-row-gap: 34px;
+  grid-column-gap: 42px;
 }
 body .content .more .container-fluid .container-fluid .more-content .more-heading {
   position: relative;
@@ -244,6 +251,7 @@ body .content .more .container-fluid .container-fluid .more-content .more-headin
   position: relative;
   font-size: 56px;
   width: 410px;
+  margin-left: 25px;
 }
 body .content .more .container-fluid .container-fluid .more-content .more-heading .more-text .p-more {
   position: relative;
@@ -252,73 +260,80 @@ body .content .more .container-fluid .container-fluid .more-content .more-headin
   position: relative;
   font-size: 20px;
   width: 550px;
+  margin-left: 25px;
 }
-body .content .more .container-fluid .container-fluid .more-content .more-photo-1 {
+body .content .more .container-fluid .container-fluid .more-content .more-photo {
   position: relative;
 }
-body .content .more .container-fluid .container-fluid .more-content .more-photo-1 .pphoto-1 {
+body .content .more .container-fluid .container-fluid .more-content .more-photo .pphoto {
   position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-body .content .more .container-fluid .container-fluid .more-content .more-photo-1 .caption {
+body .content .more .container-fluid .container-fluid .more-content .more-photo .caption {
   color: #fff;
   border-color: #fff;
   text-align: center;
   position: relative;
 }
-body .content .more .container-fluid .container-fluid .more-content .more-photo-1 .caption a:hover {
+body .content .more .container-fluid .container-fluid .more-content .more-photo .caption a {
   border-color: #fff;
   background-color: #fff;
   text-align: center;
   position: relative;
 }
-body .content .more .container-fluid .container-fluid .more-content .more-photo-1 .pphoto-1 img {
+body .content .more .container-fluid .container-fluid .more-content .more-photo .pphoto .aa {
+  cursor: pointer;
+  position: absolute;
+  color: #fff;
+  border-color: #fff;
+  border-radius: 0.5rem;
+  font-size: 1.07rem;
+  padding: 0.63rem 1.56rem;
+  border: 1px solid;
+}
+body .content .more .container-fluid .container-fluid .more-content .more-photo {
   position: relative;
 }
-body .content .more .container-fluid .container-fluid .more-content .more-photo-2 {
-  position: relative;
-}
-body .content .more .container-fluid .container-fluid .more-content .more-photo-2 .pphoto-2 {
-  position: relative;
-}
-body .content .more .container-fluid .container-fluid .more-content .more-photo-2 .caption {
+body .content .more .container-fluid .container-fluid .more-content .more-photo .caption {
   color: #fff;
   border-color: #fff;
   text-align: center;
   position: relative;
 }
-body .content .more .container-fluid .container-fluid .more-content .more-photo-2 .caption a:hover {
+body .content .more .container-fluid .container-fluid .more-content .more-photo .caption a:hover {
   border-color: #fff;
   background-color: #fff;
   text-align: center;
   position: relative;
 }
-body .content .more .container-fluid .container-fluid .more-content .more-photo-2 .pphoto-2 img {
+body .content .more .container-fluid .container-fluid .more-content .more-photo .pphoto img {
   position: relative;
 }
-body .content .more .container-fluid .container-fluid .more-content .more-photo-3 {
+body .content .more .container-fluid .container-fluid .more-content .more-photo {
   position: relative;
 }
-body .content .more .container-fluid .container-fluid .more-content .more-photo-3 .pphoto-3 {
-  position: relative;
-}
-body .content .more .container-fluid .container-fluid .more-content .more-photo-3 .caption {
+body .content .more .container-fluid .container-fluid .more-content .more-photo .caption {
   color: #fff;
   border-color: #fff;
   text-align: center;
   position: relative;
 }
-body .content .more .container-fluid .container-fluid .more-content .more-photo-3 .caption a:hover {
+body .content .more .container-fluid .container-fluid .more-content .more-photo .caption a:hover {
   border-color: #fff;
   background-color: #fff;
   text-align: center;
   position: relative;
 }
-body .content .more .container-fluid .container-fluid .more-content .more-photo-3 .pphoto-3 img {
+body .content .more .container-fluid .container-fluid .more-content .more-photo .pphoto img {
   position: relative;
+  width: 640px!important;
 }
 body .content .Master_Every {
   position: relative;
-  padding: 120px 0px 88px;
+  padding: 120px 0px 240px;
 }
 body .content .Master_Every .container {
   position: relative;
@@ -368,6 +383,9 @@ body .content .Master_Every .container .m-content .row {
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 40px;
 }
+body .content .Master_Every .container .m-content .row .cardd{
+  position: relative;
+}
 body .content .photo-all {
   position: relative;
 }
@@ -405,6 +423,7 @@ body .content .photo-all .container-fluid .row .all .all-2 {
 }
 body .content .photo-all .container-fluid .row .all .all-2 img {
   position: relative;
+  transform: translate( 0%, -14%);
 }
 body .content .photo-all .container-fluid .row .all .all-3 {
   position: relative;
@@ -414,6 +433,7 @@ body .content .photo-all .container-fluid .row .all .all-3 {
 }
 body .content .photo-all .container-fluid .row .all .all-3 img {
   position: relative;
+  transform: translate( 0%, -14%);
 }
 body .content .photo-all .container-fluid .row .all .all-4 {
   position: relative;
@@ -443,10 +463,18 @@ body .content .photo-all .contact {
   position: relative;
 }
 body .content .photo-all .contact .container {
+  height: 50px;
   position: relative;
 }
 body .content .photo-all .contact .container .row {
-  position: relative;
+  text-align: center;
+  display: flex;
+  background: white;
+  transform: translate( 34%, -76%);
+  padding: 39px 70px;
+  flex-direction: column;
+  width: 39em;
+  border-radius: 5px;
 }
 body .content .photo-all .contact .container .row .contact-pos {
   position: relative;
@@ -481,8 +509,13 @@ body .content .photo-all .company .containert .company-pos .row {
 body .footer {
   position: relative;
   background: #261f44;
-  color: #fff;
+  color: #6f6985;
   padding-bottom: 40px;
+  margin-top: 120px;
+}
+body .footer a{
+  position: relative;
+  color: #6f6985;
 }
 body .footer .container {
   position: relative;
@@ -496,7 +529,27 @@ body .footer .container .row .pos{
   width: 190px;
   HEIGHT: 225px;
 }
+body .footer .container .row .pos .desc h4{
+  position: relative;
+  color: #fff;
+}
+body .footer .container .row .poss .desc h4{
+  position: relative;
+  color: #fff;
+}
+body .footer .container .row .poss .desc .text p{
+  position: relative;
+  color: #6f6985;
+}
+body .footer .container .inc .pos .desc ul{
+  position: relative;
+  display: flex;
+  list-style-type: none;
+  padding: 5px;
+  flex-direction: row;
+}
 body .footer .container .row li{
+  list-style-type: none;
   padding: 5px;
   position: relative;
-}/*# sourceMappingURL=style.css.map */
+}
