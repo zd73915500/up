@@ -10,6 +10,9 @@ body .header {
   right: 0;
 
 }
+body .header .container-fluid{
+  background: #261f44;color: #fff;
+}
 body .header a{
   color: #fff;
   margin: 0px 3px;
@@ -208,6 +211,7 @@ body .content .formm .row .formm-position-text .formm-desc .p-formm {
 body .content .formm .row .formm-position-text .formm-desc .p-formm p {
   position: relative;
   text-align: center;
+
   grid-row-start: 1;
   grid-row-end: 3;
 }
@@ -459,52 +463,68 @@ body .content .photo-all .container-fluid .row .all .all-6 {
 body .content .photo-all .container-fluid .row .all .all-6 img {
   position: relative;
 }
-body .content .photo-all .contact {
+body .content .contact {
   position: relative;
 }
-body .content .photo-all .contact .container {
+body .content .contact .container {
   height: 50px;
   position: relative;
 }
-body .content .photo-all .contact .container .row {
-  text-align: center;
+body .content .contact .container .row {
+  text-align: center; border-radius: 5px; display: flex;background: white;transform: translate( 38%, -79%);justify-content: center;width: 40em;padding: 34px 0px;
+}
+body .content .contact .container .row .contact-pos {
+  position: relative;
+}
+body .content .contact .container .row .contact-pos .contact-desc {
+  position: relative;
+}
+body .content  .contact .container .row .contact-pos .contact-desc .h2-c {
+  position: relative;
+}
+body .content  .contact .container .row .contact-pos .contact-desc .h2-c h2 {
+  position: relative;
+  padding: 20px
+}
+body .content  .contact .container .row .contact-pos .contact-desc .p-c {
+  position: relative;
+}
+body .content  .contact .container .row .contact-pos .contact-desc .p-c p {
+  position: relative;
+  margin-bottom: 28px;
+}
+body .content  .company {
   display: flex;
-  background: white;
-  transform: translate( 34%, -76%);
-  padding: 39px 70px;
-  flex-direction: column;
-  width: 39em;
-  border-radius: 5px;
-}
-body .content .photo-all .contact .container .row .contact-pos {
+  margin-top: 120px;
   position: relative;
 }
-body .content .photo-all .contact .container .row .contact-pos .contact-desc {
+body .content .company .containert {
+  display: flex;
+  justify-content: center;
   position: relative;
 }
-body .content .photo-all .contact .container .row .contact-pos .contact-desc .h2-c {
+body .content  .company .containert .company-pos {
   position: relative;
 }
-body .content .photo-all .contact .container .row .contact-pos .contact-desc .h2-c h2 {
+body .content  .company .containert .company-pos .row {
   position: relative;
 }
-body .content .photo-all .contact .container .row .contact-pos .contact-desc .p-c {
+body .content  .company .containert .company-pos .row .pos .desc h3{
+  position: relative;
+  margin-left: 19em;font-size: 20px;margin-bottom: 100px;
+}
+body .content  .company .containert .company-pos .row .img img{
   position: relative;
 }
-body .content .photo-all .contact .container .row .contact-pos .contact-desc .p-c p {
+body .content .company .container .company-pos .row .-row{
   position: relative;
 }
-body .content .photo-all .company {
-  position: relative;
+body .content .company .container .company-pos .row .-row .pad-pos{
 }
-body .content .photo-all .company .containert {
-  position: relative;
-}
-body .content .photo-all .company .containert .company-pos {
-  position: relative;
-}
-body .content .photo-all .company .containert .company-pos .row {
-  position: relative;
+body .content .company .container .company-pos .row .-row .pad-pos img{
+ width: 110px;
+ height: 35px;
+ margin: 24px 41px;
 }
 body .footer {
   position: relative;
@@ -517,8 +537,13 @@ body .footer a{
   position: relative;
   color: #6f6985;
 }
+body .footer a:hover{
+  position: relative;
+  color: #d5d4d9;
+}
 body .footer .container {
   position: relative;
+  padding: 120px 0 0 0;
 }
 body .footer .container .row {
   position: relative;
@@ -537,6 +562,11 @@ body .footer .container .row .poss .desc h4{
   position: relative;
   color: #fff;
 }
+body .footer .container .row .poss {
+  position: relative;
+  height: 225px;
+  width: 400px;
+}
 body .footer .container .row .poss .desc .text p{
   position: relative;
   color: #6f6985;
@@ -553,3 +583,4 @@ body .footer .container .row li{
   padding: 5px;
   position: relative;
 }
+
