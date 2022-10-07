@@ -23,7 +23,7 @@ body .content {
   position: relative;
 }
 .background-first {
-  background: url(../images/s1.jpg); background-size: cover;background-repeat: no-repeat;background-position: center;padding: 200px;
+background: url(../images/s1.jpg); background-size: cover;background-repeat: no-repeat;background-position: center;padding: 200px;  
 }
 body .content .background-first .container {
   position: relative;
@@ -206,7 +206,6 @@ body .content .formm .row .formm-position-text .formm-desc .p-formm {
 body .content .formm .row .formm-position-text .formm-desc .p-formm p {
   position: relative;
   text-align: center;
-
   grid-row-start: 1;
   grid-row-end: 3;
 }

@@ -3,335 +3,500 @@
     border-color: #fff;
     text-align: center;
     position: relative;
-  }
+}
 
-.caption {
-    @include button;
-  }
-
-body {
+body{
     position: relative;
-    .header{
-        position: relative;
-    }
-    .content{
-        position: relative;
-        .background-first {
+    header{
+        .header{
             position: relative;
-            .container{
-                position: relative;
-                .row{
-                    position: relative;
-                    .head-text{
-                        position: relative;
-                        .head-1{
-                            h1{
-                                position: relative;
-                            }
-                            position: relative;
+            position: fixed;
+            z-index: 1030;
+            left: 0;
+            right: 0;}
+            .container-fluid{
+                background: #261f44;color: #fff;
+                .navbar{
+                    .container{
+                        a{
+                            color: #fff;
+                            margin: 0px 3px;
                         }
-                        .head-2{
-                            p{
-                                position: relative;
+                        button{
+                            span{
                             }
-                            position: relative;
                         }
-                        .head-link{
-                            a{
-                                position: relative;
+                        div{
+                            .collapse{
+                                .navbar-collapse{
+                                    ul{
+                                        .nav-item{}
+                                    }
+                                    .button{
+                                        a{
+                                            .nav-link{
+                                                .active{
+                                                    background-color: #ff5938;
+                                                    width: 100px;
+                                                    height: 40px;
+                                                    border-radius: 5px;
+                                                    text-align: center;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
                             }
-                            position: relative;
                         }
                     }
-                    
                 }
             }
-
         }
-        .befor-coach{
+
+    .content{
+
+        .container{
             position: relative;
-            .container{
+            .background-first{
+                text-align: center;
+                display: flex;
+                background: url(../images/s1.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                padding: 200px;
+                justify-content: center;
+                    .row{
+                        position: relative;
+                        display: block;
+                        .head-text{
+                            display: flex;
+                            position: relative;
+                            color: #fff;
+                            flex-direction: column;
+                            align-items: center;
+                            .h1{
+                                position: relative;
+                                font-size: 64px;
+                                width: 80%;
+                                text-align: center;
+                                margin-left: 10%;
+                            }
+                            .head-{
+                                position: relative;
+                                text-align: center;
+                                width: 50%;
+                                p{
+                                position: relative;
+                                font-size: 20px;
+                                }
+                            }
+                            .link{
+                                position: relative;
+                                a{
+                                    background-color: #ff5938;
+                                    border-color: #ff5938;
+                                }
+                            }
+                        }
+                    }
+                }
+        }
+    
+        .container{
+            position: relative;
+            .befor-coach{
                 position: relative;
+                padding-top: 120px;
+                color: #6f6985;
                 .heading{
                     position: relative;
                     .row{
                         position: relative;
-                        .position-heading-text{
+                        display: block;
+                        .text{
                             position: relative;
-                            .desc{
-                                position: relative;
-                                .h2-b{
-                                    h2{
-                                        position: relative;
-                                    }
-                                    position: relative;
-                                }
-                                .p-b{
-                                    p{
-                                        position: relative;
-                                    }
-                                    position: relative;
-                                }
-                            }
-                        }
-
-                    }
-
-                }
-                .photo{
-                    position: relative;
-                    .row{
-                        position: relative;
-                        .position-photo-text{
-                            position: relative;
-                            .row{
-                                position: relative;
-                                .photo-img-1{
-                                    img{
-                                        position: relative;
-                                    }
-                                    position: relative;
-                                }
-                                .photo-img-2{
-                                    img{
-                                        position: relative;
-                                    }
-                                    position: relative;
-                                }
-                                .photo-text{
-                                    p{
-                                        position: relative;
-                                    }
-                                    position: relative;
-                                }
-                                .photo-img-3{
-                                    img{
-                                        position: relative;
-                                    }
-                                    position: relative;
-                                }
-                                .photo-img-4{
-                                    img{
-                                        position: relative;
-                                    }
-                                    position: relative;
-                                }
-
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        .formm{
-            position: relative;
-            .row{
-                position: relative;
-                .formm-position-text{
-                    position: relative;
-                    .formm-desc{
-                        position: relative;
-                        .h2-formm{
+                            display: flex;
+                            flex-direction: column;
+                            align-content: stretch;
+                            justify-content: flex-start;
+                            align-items: center;
                             h2{
                                 position: relative;
+                                font-size: 42px;
+                                text-align: center;
+                                color: #261f44;
                             }
-                            position: relative;
+                            .p{
+                                position: relative;
+                                display: flex;
+                                justify-content: center;
+                                p{
+                                    width: 54%;
+                                    text-align: center;
+                                    font-size: 20px;
+                                }
+                            }
                         }
-                        .p-formm{
+                    }
+                }
+                .photo-text{
+                    position: relative;
+                    .row{
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                        grid-template-rows: 1fr 1fr;
+                        grid-column-gap: 30px;
+                        .img-1{
+                            grid-column-start: 1;
+                            grid-column-end: 2;
+                            grid-row-start: 1;
+                            grid-row-end: 3;
+                            img{}
+                        }
+                        .img-2{
+                            grid-column-start: 2;
+                            grid-column-end: 4;
+                            grid-row-start: 1;
+                            grid-row-end: 3;
+                            img{}
+                        }
+                        .text{
+                            position: relative;
+                            grid-column-end: 6;
+                            grid-column-start: 4;
                             p{
                                 position: relative;
+                                color: #6f6985;
                             }
+                        }
+                        .img-3{
+                            position: relative;
+                            img{}
+                        }
+                        .img-4{
                             position: relative;
                         }
                     }
                 }
-                    .formm-position{
-                      position: relative;
-                    }
+            }
+            
+        }
 
+        .container{
+        .formm{
+            padding: 40px 0 120px;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            align-items: center;
+            .row{
+                .text{
+                    h2{
+                        font-size: 42px;
+                        position: relative;
+                        width: 63%;
+                        text-align: center;
+                        margin-left: 18%;
+                    }
+                    .p{
+                        position: relative;
+                        p{
+                            position: relative;
+                            text-align: center;
+                            grid-row-start: 1;
+                            grid-row-end: 3;
+                        }
+                    }
+                }
+                .offset-lg-2{
+                    position: relative;
+                    display: flex;
+                    form{
+                        position: relative;
+                        .button{
+                            padding: 10px;
+                            border-radius: 5px;
+                            background-color: #ff5938;
+                            border-color: #ff5938;
+                            color: #fff;
+                        }
+                    }
+                    }
+                }
             }
         }
+
+        .container-fluid{
+            background: #ff5938;
+            color: #fff;
+            padding: 70px 120px;
         .more{
             position: relative;
-                    .more-content{
-                        position: relative;
-                        .more-heading{
-                            position: relative;
-                            .more-text{
-                                position: relative;
-                                .h2-more{
-                                    h2{
-                                        position: relative;
-                                    }
-                                    position: relative;
-                                }
-                                .p-more{
-                                    P{
-                                        position: relative;
-                                    }
-                                    position: relative;
-                                }
-                            }
-                        }
-                        .more-photo-1{
-                            position: relative;
-                            .pphoto-1{
-                                img{
-                                    position: relative;
-                                }
-                                position: relative;
-                            }
-                        }
-                        .more-photo-2{
-                            position: relative;
-                            .pphoto-2{
-                                img{
-                                    position: relative;
-                                }
-                                position: relative;
-                            }
-                        }
-                        .more-photo-3{
-                            position: relative;
-                            .pphoto-3{
-                                img{
-                                    position: relative;
-                                }
-                                position: relative;
-                            }
-                        }
-                    }
-        }
-        .Master_Every{
-            position: relative;
-            .container{
-                position: relative;
-                .m-head{
+            .content{
+                display: grid;
+                width: 100%;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 50% 50%;
+                grid-row-gap: 30px;
+                .heading{
                     position: relative;
-                    .row{
+                    width: 40%;
+                    h2{
                         position: relative;
-                        .m-pos-text{
-                            position: relative;
-                            .m-text{
-                                position: relative;
-                                .h2-m{
-                                    h2{
-                                        position: relative;
-                                    }
-                                    position: relative;
-                                }
-                                .p-m{
-                                    p{
-                                        position: relative;
-                                    }
-                                    position: relative;
-                                }
-                            }
+                        font-size: 56px;
+                        width: 410px;
+                        margin-top: 60px;
+                        margin-left: 10%;
+                    }
+                    .p{
+                        position: relative;
+                        p{
+                            font-size: 20px;
+                            width: 504px;
+                            margin-left: 10%;
                         }
                     }
                 }
-                .m-content{
+                .pphoto{
                     position: relative;
-                    .row{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    a{
+                        color: #fff;
+                        border-color: #fff;
+                        text-align: center;
                         position: relative;
+                        .aa{
+                            cursor: pointer;
+                            position: absolute;
+                            color: #fff;
+                            border-color: #fff;
+                            border-radius: 0.5rem;
+                            font-size: 1.07rem;
+                            padding: 0.63rem 1.56rem;
+                            border: 1px solid;
+                        }
                     }
                 }
             }
         }
-        .photo-all{
+        }
+
+        .container{
             position: relative;
-            .container-fluid{
-                position: relative;
+        .master{
+            padding: 120px 0px 240px;
+            .headd{
                 .row{
-                    position: relative;
-                    .all{
-                        position: relative;
-                        .all-1{
-                            img{
-                                position: relative;
-                            }
-                            position: relative;
-                        }
-                        .all-2{
-                            img{
-                                position: relative;
-                            }
-                            position: relative;
-                        }
-                        .all-3{
-                            img{
-                                position: relative;
-                            }
-                            position: relative;
-                        }
-                        .all-4{
-                            img{
-                                position: relative;
-                            }
-                            position: relative;
-                        }
-                        .all-5{
-                            img{
-                                position: relative;
-                            }
-                            position: relative;
-                        }
-                        .all-6{
-                            img{
-                                position: relative;
-                            }
-                            position: relative;
+                    .m-text{
+                        h2{}
+                        .p{
+                            p{}
                         }
                     }
                 }
             }
-            .contact{
-                position: relative;
-                .container{
-                    position: relative;
-                    .row{
+            .content{
+                .row{
+                    .ccard{
                         position: relative;
-                        .contact-pos{
-                            position: relative;
-                            .contact-desc{
+                        }
+                            .cardd{
+                                a{}
+                                img{}
+                            }
+                            .cardd{
+                                .card-body{
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-56%, -60%);
+                                    width: 91%;
+                                    border-radius: 6px;
+                                    h3{
+                                        a{
+                                        color: #383838;
+                                        }
+                                    }
+                                    p{}
+                                    a{
+                                        border-bottom: 2px solid #ff5938;color: #ff5938;
+                                    }
+                                }
+                            }
+                            .card_block{
                                 position: relative;
-                                .h2-c{
-                                    h2{
-                                        position: relative;
-                                    }
-                                    position: relative;
+                                width: 100%;
+                                .cardd{
+                                    a{}
                                 }
-                                .p-c{
-                                    p{
-                                        position: relative;
+                                .card{
+                                    .card-body{
+                                        position: absolute;
+                                        top: 50%;left: 50%;
+                                        transform: translate(-56%, -60%);
+                                        width: 91%;
+                                        border-radius: 6px;
+                                        h3{
+                                            a{
+                                                color: #383838;
+                                            }
+                                        }
+                                        p{}
+                                        a{
+                                            border-bottom: 2px solid #ff5938;
+                                            color: #ff5938;
+                                        }
                                     }
-                                    position: relative;
                                 }
+                            }
+                            .card_block{
+                                position: relative;
+                                width: 100%;
+                                .card{
+                                    a{}
+                                }
+                                .card{
+                                    .ccard{
+                                        position: absolute;
+                                        top: 50%;
+                                        left: 50%;
+                                        transform: translate(-56%, -60%);
+                                        width: 91%;border-radius: 6px;
+                                        background-color: white;
+                                        padding: 24px;
+                                        h3{
+                                            a{
+                                            color: #383838;
+                                            }
+                                        }
+                                        P{}
+                                        a{
+                                        border-bottom: 2px solid #ff5938;
+                                        color: #ff5938;
+                                        }
+                                    }
+                                }
+                        }
+                    }
+                }
+            }
+        }
+    
+        .container-fluid{
+        .photo-all{
+            .row{
+                .all{
+                    .all-1{}
+                    .all-2{}
+                    .all-3{}
+                    .all-4{}
+                    .all-5{}
+                    .all-6{}
+                }
+            }
+        }
+        }
+
+        .container{
+        .contact{
+            .row{
+                .pos{
+                    .text{
+                        h2{}
+                        .p{
+                            p{}
+                        }
+                    }
+                    form{
+                        .form{
+                            input{
+                                width: 100%;
+                                margin-bottom: 15px;
+                            }
+                        }
+                        .form2{
+                            input{
+                                margin-bottom: 15px;
+                            }
+                        }
+                        .select{
+                            select{
+                                width: 100%;margin-bottom: 15px;
+                            }
+                        }
+                        .d-grid{
+                            button{
+                                cursor: pointer;
+                                padding: 10px;
+                                border-radius: 5px;
+                                background-color: #ff5938;
+                                border-color: #ff5938;
+                                color: #fff;
+                                width: 100%;
                             }
                         }
                     }
                 }
             }
+        }
+        }
+
+        .container{
             .company{
-                position: relative;
-                .containert{
-                    position: relative;
-                    .company-pos{
-                        position: relative;
-                        .row{
-                            position: relative;
+                .pos{
+                    .row{
+                        h3{}
+                    }
+                    .row{
+                        .-row{
+                            .-pos{}
                         }
                     }
                 }
             }
         }
     }
-    .footer{
-        position: relative;
-        .container{
-            position: relative;
-            .row{
-                position: relative;
+
+    footer{
+        .footer{
+            .container{
+                .row{
+                    .pos{
+                        h4{}
+                        ul{
+                            li{}
+                        }
+                    }
+                    .poss{
+                        h4{}
+                        .text{
+                            p{}
+                            form{
+                                .form{
+                                    input{
+                                        margin-bottom: 15px;
+                                    }
+                                }
+                                button{
+                                    padding: 10px;
+                                    border-radius: 5px;
+                                    background-color: #ff5938;
+                                    border-color: #ff5938;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                    .inc{
+                        .ul{
+                            li{}
+                        }
+                    }
+                }
             }
         }
     }
