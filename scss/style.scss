@@ -8,15 +8,12 @@
 body {
     position: relative;
 
-    header {
         .header {
             position: relative;
             position: fixed;
             z-index: 1030;
             left: 0;
             right: 0;
-        }
-
         .container-fluid {
             background: #261f44;
             color: #fff;
@@ -61,20 +58,19 @@ body {
     }
 
     .content {
+        position: relative;
 
-        .container {
-            position: relative;
-
-            .background-first {
-                text-align: center;
-                display: flex;
-                background: url(../images/s1.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center;
-                padding: 200px;
-                justify-content: center;
-
+        .background-first {
+            text-align: center;
+            display: flex;
+            background: url(../images/s1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 200px;
+            justify-content: center;
+            .container {
+                position: relative;
                 .row {
                     position: relative;
                     display: block;
@@ -118,14 +114,11 @@ body {
             }
         }
 
-        .container {
-            position: relative;
-
-            .befor-coach {
+        .befor-coach {
+            padding-top: 120px;
+            color: #6f6985;
+            .container {
                 position: relative;
-                padding-top: 120px;
-                color: #6f6985;
-
                 .heading {
                     position: relative;
 
@@ -216,14 +209,14 @@ body {
 
         }
 
-        .container {
-            .formm {
-                padding: 40px 0 120px;
-                display: flex;
-                justify-content: flex-start;
-                flex-direction: column;
-                align-items: center;
-
+        .formm {
+            padding: 40px 0 120px;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            align-items: center;
+            .container {
+                position: relative;
                 .row {
                     .text {
                         h2 {
@@ -266,14 +259,12 @@ body {
             }
         }
 
-        .container-fluid {
-            background: #ff5938;
-            color: #fff;
-            padding: 70px 120px;
-
-            .more {
-                position: relative;
-
+        .more {
+            position: relative;
+            .container-fluid {
+                background: #ff5938;
+                color: #fff;
+                padding: 70px 120px;
                 .content {
                     display: grid;
                     width: 100%;
@@ -333,12 +324,10 @@ body {
             }
         }
 
-        .container {
-            position: relative;
-
-            .master {
-                padding: 120px 0px 240px;
-
+        .master {
+            padding: 120px 0px 240px;
+            .container {
+                position: relative;
                 .headd {
                     position: relative;
 
@@ -485,10 +474,10 @@ body {
             }
         }
 
-        .container-fluid {
+        .photo-all {
             position: relative;
 
-            .photo-all {
+            .container-fluid {
                 position: relative;
 
                 .row {
@@ -557,12 +546,10 @@ body {
             }
         }
 
-        .container {
-            height: 50px;
-
-            .contact {
-                position: relative;
-
+        .contact {
+            position: relative;
+            .container {
+                height: 50px;
                 .row {
                     text-align: center;
                     border-radius: 5px;
@@ -630,13 +617,12 @@ body {
             }
         }
 
-        .container {
+        .company {
             display: flex;
-            justify-content: center;
-
-            .company {
+            margin-top: 120px;
+        .container {
                 display: flex;
-                margin-top: 120px;
+                justify-content: center;
 
                 .pos {
                     position: relative;
@@ -673,8 +659,6 @@ body {
         }
     }
 
-    footer {
-        position: relative;
         .footer {
             background: #261f44;
             color: #6f6985;
@@ -704,10 +688,11 @@ body {
                             list-style-type: none;
                             padding: 5px;
                             flex-direction: row;
-
-                            li {
-                                list-style-type: none;
-                                padding: 5px;
+                            .list-unstyled{
+                                li {
+                                    list-style-type: none;
+                                    padding: 5px;
+                                }
                             }
                         }
                     }
@@ -755,15 +740,15 @@ body {
                             list-style-type: none;
                             padding: 5px;
                             flex-direction: row;
-
-                            li {
-                                list-style-type: none;
-                                padding: 5px;
+                            .list-unstyled{
+                                li {
+                                    list-style-type: none;
+                                    padding: 5px;
+                                }
                             }
                         }
                     }
                 }
             }
         }
-    }
 }
