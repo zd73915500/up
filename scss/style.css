@@ -8,20 +8,60 @@ body .header {
   left: 0;
   right: 0;
 }
+body .header a {
+  font-size: 16px;
+  font-weight: 700;
+}
 body .header .container-fluid {
   background: #261f44;
   color: #fff;
 }
+body .header .container-fluid .navbar {
+  padding: 16px;
+}
+body .header .container-fluid .navbar .container {
+  position: relative;
+}
 body .header .container-fluid .navbar .container a {
   color: #fff;
-  margin: 0px 3px;
+  padding: 8px 14px;
 }
-body .header .container-fluid .navbar .container div .collapse .navbar-collapse .button a .nav-link .active {
+body .header .container-fluid .navbar .container a .navbar-brand {
+  margin-right: 20em;
+}
+body .header .container-fluid .navbar .container button {
+  position: relative;
+}
+body .header .container-fluid .navbar .container button span {
+  position: relative;
+}
+body .header .container-fluid .navbar .container .d {
+  position: relative;
+}
+body .header .container-fluid .navbar .container .d .collapse {
+  position: relative;
+  position: relative;
+}
+body .header .container-fluid .navbar .container .d .collapse ul {
+  position: relative;
+}
+body .header .container-fluid .navbar .container .d .collapse li {
+  position: relative;
+}
+body .header .container-fluid .navbar .container .d .collapse .button {
+  margin-left: 10px;
+  border-radius: 5px;
   background-color: #ff5938;
-  width: 100px;
+  border-color: #ff5938;
+  color: #fff;
+}
+body .header .container-fluid .navbar .container .d .collapse .button a {
+  background-color: #ff5938;
+  width: 92px;
   height: 40px;
   border-radius: 5px;
   text-align: center;
+  font-size: 14px;
 }
 body .content {
   position: relative;
@@ -35,6 +75,7 @@ body .content .background-first {
   background-position: center;
   padding: 200px;
   justify-content: center;
+  padding-bottom: 150px;
 }
 body .content .background-first .container {
   position: relative;
@@ -50,24 +91,24 @@ body .content .background-first .container .row .head-text {
   flex-direction: column;
   align-items: center;
 }
-body .content .background-first .container .row .head-text .h1 {
+body .content .background-first .container .row .head-text h1 {
   position: relative;
   font-size: 64px;
-  width: 80%;
+  width: 60%;
   text-align: center;
-  margin-left: 10%;
+  color: #fff;
 }
 body .content .background-first .container .row .head-text .head- {
   position: relative;
   text-align: center;
-  width: 50%;
+  width: 44%;
 }
 body .content .background-first .container .row .head-text .head- p {
   position: relative;
   font-size: 20px;
 }
 body .content .background-first .container .row .head-text .link {
-  position: relative;
+  margin-top: 20px;
 }
 body .content .background-first .container .row .head-text .link a {
   background-color: #ff5938;
@@ -118,7 +159,6 @@ body .content .befor-coach .container .photo-text .row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-column-gap: 30px;
 }
 body .content .befor-coach .container .photo-text .row .img-1 {
   grid-column-start: 1;
@@ -126,11 +166,17 @@ body .content .befor-coach .container .photo-text .row .img-1 {
   grid-row-start: 1;
   grid-row-end: 3;
 }
+body .content .befor-coach .container .photo-text .row .img-1 img {
+  position: relative;
+}
 body .content .befor-coach .container .photo-text .row .img-2 {
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
+}
+body .content .befor-coach .container .photo-text .row .img-2 img {
+  position: relative;
 }
 body .content .befor-coach .container .photo-text .row .text {
   position: relative;
@@ -142,6 +188,9 @@ body .content .befor-coach .container .photo-text .row .text p {
   color: #6f6985;
 }
 body .content .befor-coach .container .photo-text .row .img-3 {
+  position: relative;
+}
+body .content .befor-coach .container .photo-text .row .img-3 img {
   position: relative;
 }
 body .content .befor-coach .container .photo-text .row .img-4 {
@@ -157,24 +206,31 @@ body .content .formm {
 body .content .formm .container {
   position: relative;
 }
+body .content .formm .container .row {
+  width: 100%;
+}
+body .content .formm .container .row .text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 body .content .formm .container .row .text h2 {
   font-size: 42px;
   position: relative;
-  width: 63%;
+  width: 630px;
   text-align: center;
-  margin-left: 18%;
+  color: #261f44;
 }
 body .content .formm .container .row .text .p {
   position: relative;
 }
 body .content .formm .container .row .text .p p {
-  position: relative;
   text-align: center;
   grid-row-start: 1;
   grid-row-end: 3;
 }
 body .content .formm .container .row .offset-lg-2 {
-  position: relative;
   display: flex;
 }
 body .content .formm .container .row .offset-lg-2 form {
@@ -193,7 +249,8 @@ body .content .more {
 body .content .more .container-fluid {
   background: #ff5938;
   color: #fff;
-  padding: 70px 120px;
+  padding: 120px 270px;
+  padding-bottom: 190;
 }
 body .content .more .container-fluid .content {
   display: grid;
@@ -201,25 +258,25 @@ body .content .more .container-fluid .content {
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   grid-row-gap: 30px;
+  grid-column-gap: 30px;
 }
 body .content .more .container-fluid .content .heading {
   position: relative;
-  width: 40%;
+  width: 100%;
 }
 body .content .more .container-fluid .content .heading h2 {
   position: relative;
   font-size: 56px;
-  width: 410px;
-  margin-top: 60px;
-  margin-left: 10%;
+  margin-top: 130px;
+  width: 90%;
+  color: #fff;
 }
 body .content .more .container-fluid .content .heading .p {
   position: relative;
 }
 body .content .more .container-fluid .content .heading .p p {
   font-size: 20px;
-  width: 504px;
-  margin-left: 10%;
+  width: 550px;
 }
 body .content .more .container-fluid .content .pphoto {
   position: relative;
@@ -227,14 +284,21 @@ body .content .more .container-fluid .content .pphoto {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  border-radius: 5px;
 }
 body .content .more .container-fluid .content .pphoto a {
+  width: 100%;
   color: #fff;
   border-color: #fff;
   text-align: center;
   position: relative;
 }
-body .content .more .container-fluid .content .pphoto a .aa {
+body .content .more .container-fluid .content .pphoto a img {
+  width: 100%;
+  border-radius: 5px;
+}
+body .content .more .container-fluid .content .pphoto .aa {
   cursor: pointer;
   position: absolute;
   color: #fff;
@@ -243,6 +307,16 @@ body .content .more .container-fluid .content .pphoto a .aa {
   font-size: 1.07rem;
   padding: 0.63rem 1.56rem;
   border: 1px solid;
+  width: 116px;
+}
+body .content .more .container-fluid .content .pphoto:hover .aa {
+  background: #fff;
+  color: #000;
+  border-color: #fff;
+}
+body .content .more .container-fluid .content .pphoto:hover img {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
 }
 body .content .master {
   padding: 120px 0px 240px;
@@ -258,22 +332,24 @@ body .content .master .container .headd .row {
   flex-direction: column;
 }
 body .content .master .container .headd .row .m-text {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 body .content .master .container .headd .row .m-text h2 {
-  width: 41%;
+  width: 35%;
   text-align: center;
   font-size: 42px;
   color: #261f44;
-  margin-left: 30%;
 }
 body .content .master .container .headd .row .m-text .p {
-  position: relative;
-  font-size: 24px;
-  width: 62%;
+  width: 47%;
   text-align: center;
-  margin-left: 20%;
   color: #6f6985;
+}
+body .content .master .container .headd .row .m-text .p p {
+  margin-bottom: 70px;
+  font-size: 20px;
 }
 body .content .master .container .content {
   position: relative;
@@ -283,61 +359,49 @@ body .content .master .container .content .row {
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 40px;
 }
-body .content .master .container .content .row .ccard {
-  position: relative;
-}
-body .content .master .container .content .row .cardd .card-body {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-56%, -60%);
-  width: 91%;
-  border-radius: 6px;
-}
-body .content .master .container .content .row .cardd .card-body h3 a {
-  color: #383838;
-}
-body .content .master .container .content .row .cardd .card-body a {
-  border-bottom: 2px solid #ff5938;
-  color: #ff5938;
-}
 body .content .master .container .content .row .card_block {
+  transform: scale(1.08);
   position: relative;
   width: 100%;
 }
-body .content .master .container .content .row .card_block .card .card-body {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-56%, -60%);
-  width: 91%;
-  border-radius: 6px;
+body .content .master .container .content .row .card_block .card- {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
 }
-body .content .master .container .content .row .card_block .card .card-body h3 a {
-  color: #383838;
-}
-body .content .master .container .content .row .card_block .card .card-body a {
-  border-bottom: 2px solid #ff5938;
-  color: #ff5938;
-}
-body .content .master .container .content .row .card_block {
-  position: relative;
+body .content .master .container .content .row .card_block .card- a {
   width: 100%;
 }
-body .content .master .container .content .row .card_block .card .ccard {
+body .content .master .container .content .row .card_block .card- a img {
+  width: 100%;
+  border-radius: 5px;
+}
+body .content .master .container .content .row .card_block .card- a img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+body .content .master .container .content .row .card_block .ccard {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-56%, -60%);
+  transform: translate(-4%, -60%);
   width: 91%;
   border-radius: 6px;
   background-color: white;
   padding: 24px;
 }
-body .content .master .container .content .row .card_block .card .ccard h3 a {
-  color: #383838;
+body .content .master .container .content .row .card_block .ccard h3 {
+  width: 145px;
 }
-body .content .master .container .content .row .card_block .card .ccard a {
+body .content .master .container .content .row .card_block .ccard h3 a {
+  color: #383838;
+  border-bottom: none;
+}
+body .content .master .container .content .row .card_block .ccard h3:hover a {
+  color: #ff5938;
+}
+body .content .master .container .content .row .card_block .ccard P {
+  position: relative;
+}
+body .content .master .container .content .row .card_block .ccard a {
   border-bottom: 2px solid #ff5938;
   color: #ff5938;
 }
@@ -387,11 +451,20 @@ body .content .photo-all .container-fluid .row .all .all-4 {
   grid-column-start: 2;
   grid-column-end: 3;
 }
+body .content .photo-all .container-fluid .row .all .all-4 img {
+  position: relative;
+}
+body .content .photo-all .container-fluid .row .all .all-5 img {
+  position: relative;
+}
 body .content .photo-all .container-fluid .row .all .all-6 {
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 3;
+}
+body .content .photo-all .container-fluid .row .all .all-6 img {
+  position: relative;
 }
 body .content .contact {
   position: relative;
@@ -475,7 +548,7 @@ body .content .company .container .pos .row .-row .-pos {
 body .content .company .container .pos .row .-row .-pos img {
   width: 110px;
   height: 35px;
-  margin: 24px 41px;
+  margin: 24px 38px;
 }
 body .footer {
   background: #261f44;
@@ -501,14 +574,13 @@ body .footer .container .row .pos {
 }
 body .footer .container .row .pos h4 {
   color: #fff;
+  margin-left: 5px;
 }
 body .footer .container .row .pos ul {
   display: flex;
   list-style-type: none;
-  padding: 5px;
-  flex-direction: row;
 }
-body .footer .container .row .pos ul .list-unstyled li {
+body .footer .container .row .pos li {
   list-style-type: none;
   padding: 5px;
 }
@@ -518,6 +590,7 @@ body .footer .container .row .poss {
 }
 body .footer .container .row .poss h4 {
   color: #fff;
+  margin-left: 5px;
 }
 body .footer .container .row .poss .text {
   position: relative;
@@ -538,16 +611,15 @@ body .footer .container .row .poss .text form button {
   border-color: #ff5938;
   color: #fff;
 }
-body .footer .container .row .inc {
+body .footer .container .inc {
   position: relative;
 }
-body .footer .container .row .inc .ul {
+body .footer .container .inc ul {
   display: flex;
   list-style-type: none;
-  padding: 5px;
   flex-direction: row;
 }
-body .footer .container .row .inc .ul .list-unstyled li {
+body .footer .container .inc li {
   list-style-type: none;
   padding: 5px;
 }/*# sourceMappingURL=style.css.map */

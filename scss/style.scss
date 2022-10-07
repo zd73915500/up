@@ -1,53 +1,70 @@
-@mixin button {
-    color: #fff;
-    border-color: #fff;
-    text-align: center;
-    position: relative;
-}
-
 body {
     position: relative;
 
-        .header {
-            position: relative;
-            position: fixed;
-            z-index: 1030;
-            left: 0;
-            right: 0;
+    .header {
+        position: relative;
+        position: fixed;
+        z-index: 1030;
+        left: 0;
+        right: 0;
+        a{
+            font-size: 16px;
+            font-weight: 700;
+        }
         .container-fluid {
             background: #261f44;
             color: #fff;
-
             .navbar {
+                padding: 16px;
                 .container {
+                    position: relative;
+
                     a {
                         color: #fff;
-                        margin: 0px 3px;
+                        padding: 8px 14px;
+
+                        .navbar-brand {
+                            margin-right: 20em;
+                        }
                     }
 
                     button {
-                        span {}
+                        position: relative;
+
+                        span {
+                            position: relative;
+                        }
                     }
 
-                    div {
-                        .collapse {
-                            .navbar-collapse {
-                                ul {
-                                    .nav-item {}
-                                }
+                    .d {
+                        position: relative;
 
-                                .button {
-                                    a {
-                                        .nav-link {
-                                            .active {
-                                                background-color: #ff5938;
-                                                width: 100px;
-                                                height: 40px;
-                                                border-radius: 5px;
-                                                text-align: center;
-                                            }
-                                        }
-                                    }
+                        .collapse {
+                            position: relative;
+                            position: relative;
+
+                            ul {
+                                position: relative;
+                            }
+
+                            li {
+                                position: relative;
+                            }
+
+                            .button {
+                                margin-left: 10px;
+                                border-radius: 5px;
+                                background-color: #ff5938;
+                                border-color: #ff5938;
+                                color: #fff;
+
+                                a {
+                                    background-color: #ff5938;
+                                    width: 92px;
+                                    height: 40px;
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    font-size: 14px;
                                 }
                             }
                         }
@@ -69,8 +86,11 @@ body {
             background-position: center;
             padding: 200px;
             justify-content: center;
+            padding-bottom: 150px;
+
             .container {
                 position: relative;
+
                 .row {
                     position: relative;
                     display: block;
@@ -82,18 +102,18 @@ body {
                         flex-direction: column;
                         align-items: center;
 
-                        .h1 {
+                        h1 {
                             position: relative;
                             font-size: 64px;
-                            width: 80%;
+                            width: 60%;
                             text-align: center;
-                            margin-left: 10%;
+                            color: #fff;
                         }
 
                         .head- {
                             position: relative;
                             text-align: center;
-                            width: 50%;
+                            width: 44%;
 
                             p {
                                 position: relative;
@@ -102,8 +122,7 @@ body {
                         }
 
                         .link {
-                            position: relative;
-
+                            margin-top: 20px;
                             a {
                                 background-color: #ff5938;
                                 border-color: #ff5938;
@@ -117,8 +136,10 @@ body {
         .befor-coach {
             padding-top: 120px;
             color: #6f6985;
+
             .container {
                 position: relative;
+
                 .heading {
                     position: relative;
 
@@ -163,15 +184,15 @@ body {
                         display: grid;
                         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
                         grid-template-rows: 1fr 1fr;
-                        grid-column-gap: 30px;
-
                         .img-1 {
                             grid-column-start: 1;
                             grid-column-end: 2;
                             grid-row-start: 1;
                             grid-row-end: 3;
 
-                            img {}
+                            img {
+                                position: relative;
+                            }
                         }
 
                         .img-2 {
@@ -180,7 +201,9 @@ body {
                             grid-row-start: 1;
                             grid-row-end: 3;
 
-                            img {}
+                            img {
+                                position: relative;
+                            }
                         }
 
                         .text {
@@ -197,7 +220,9 @@ body {
                         .img-3 {
                             position: relative;
 
-                            img {}
+                            img {
+                                position: relative;
+                            }
                         }
 
                         .img-4 {
@@ -215,23 +240,30 @@ body {
             justify-content: flex-start;
             flex-direction: column;
             align-items: center;
+
             .container {
                 position: relative;
+
                 .row {
+                    width: 100%;
+
                     .text {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
                         h2 {
                             font-size: 42px;
                             position: relative;
-                            width: 63%;
+                            width: 630px;
                             text-align: center;
-                            margin-left: 18%;
+                            color: #261f44;
                         }
 
                         .p {
                             position: relative;
 
                             p {
-                                position: relative;
                                 text-align: center;
                                 grid-row-start: 1;
                                 grid-row-end: 3;
@@ -240,7 +272,6 @@ body {
                     }
 
                     .offset-lg-2 {
-                        position: relative;
                         display: flex;
 
                         form {
@@ -261,27 +292,31 @@ body {
 
         .more {
             position: relative;
+
             .container-fluid {
                 background: #ff5938;
                 color: #fff;
-                padding: 70px 120px;
+                padding: 120px 270px;
+                padding-bottom: 190;
+
                 .content {
                     display: grid;
                     width: 100%;
                     grid-template-columns: 50% 50%;
                     grid-template-rows: 50% 50%;
                     grid-row-gap: 30px;
+                    grid-column-gap: 30px;
 
                     .heading {
                         position: relative;
-                        width: 40%;
+                        width: 100%;
 
                         h2 {
                             position: relative;
                             font-size: 56px;
-                            width: 410px;
-                            margin-top: 60px;
-                            margin-left: 10%;
+                            margin-top: 130px;
+                            width: 90%;
+                            color: #fff;
                         }
 
                         .p {
@@ -289,8 +324,7 @@ body {
 
                             p {
                                 font-size: 20px;
-                                width: 504px;
-                                margin-left: 10%;
+                                width: 550px;
                             }
                         }
                     }
@@ -301,24 +335,40 @@ body {
                         display: flex;
                         align-items: center;
                         justify-content: center;
-
+                        overflow: hidden;
+                        border-radius: 5px;
                         a {
+                            width: 100%;
                             color: #fff;
                             border-color: #fff;
                             text-align: center;
                             position: relative;
 
-                            .aa {
-                                cursor: pointer;
-                                position: absolute;
-                                color: #fff;
-                                border-color: #fff;
-                                border-radius: 0.5rem;
-                                font-size: 1.07rem;
-                                padding: 0.63rem 1.56rem;
-                                border: 1px solid;
+                            img {
+                                width: 100%;
+                                border-radius: 5px;
                             }
                         }
+                        .aa {
+                            cursor: pointer;
+                            position: absolute;
+                            color: #fff;
+                            border-color: #fff;
+                            border-radius: 0.5rem;
+                            font-size: 1.07rem;
+                            padding: 0.63rem 1.56rem;
+                            border: 1px solid;
+                            width: 116px;
+                        }
+                    }
+                    .pphoto:hover .aa{
+                            background: #fff;
+                            color: #000;
+                            border-color: #fff;
+                    }
+                    .pphoto:hover img{
+                        transform: scale(1.1);
+                        transition: transform .5s ease-in-out;
                     }
                 }
             }
@@ -336,30 +386,29 @@ body {
                         flex-direction: column;
 
                         .m-text {
-                            position: relative;
-
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
                             h2 {
-                                width: 41%;
+                                width: 35%;
                                 text-align: center;
                                 font-size: 42px;
-                                color: #261f44;
-                                margin-left: 30%;
+                                color: #261f44;     
                             }
 
                             .p {
-                                position: relative;
-                                font-size: 24px;
-                                width: 62%;
+                                width: 47%;
                                 text-align: center;
-                                margin-left: 20%;
                                 color: #6f6985;
 
-                                p {}
+                                p {
+                                    margin-bottom: 70px;
+                                    font-size: 20px;
+                                }
                             }
                         }
                     }
                 }
-
                 .content {
                     position: relative;
 
@@ -368,106 +417,53 @@ body {
                         grid-template-columns: 1fr 1fr 1fr;
                         grid-column-gap: 40px;
 
-                        .ccard {
-                            position: relative;
-                        }
-
-                        .cardd {
-                            a {}
-
-                            img {}
-                        }
-
-                        .cardd {
-                            .card-body {
-                                position: absolute;
-                                top: 50%;
-                                left: 50%;
-                                transform: translate(-56%, -60%);
-                                width: 91%;
-                                border-radius: 6px;
-
-                                h3 {
-                                    a {
-                                        color: #383838;
-                                    }
-                                }
-
-                                p {}
-
-                                a {
-                                    border-bottom: 2px solid #ff5938;
-                                    color: #ff5938;
-                                }
-                            }
-                        }
-
                         .card_block {
+                            transform: scale(1.08);
                             position: relative;
                             width: 100%;
-
-                            .cardd {
-                                a {}
-                            }
-
-                            .card {
-                                .card-body {
-                                    position: absolute;
-                                    top: 50%;
-                                    left: 50%;
-                                    transform: translate(-56%, -60%);
-                                    width: 91%;
-                                    border-radius: 6px;
-
-                                    h3 {
-                                        a {
-                                            color: #383838;
-                                        }
+                            .card- {
+                                width: 100%;
+                                overflow: hidden;
+                                border-radius: 5px;
+                                a{
+                                    width: 100%;
+                                    img{
+                                        width: 100%;
+                                        border-radius: 5px;
                                     }
-
-                                    p {}
-
-                                    a {
-                                        border-bottom: 2px solid #ff5938;
-                                        color: #ff5938;
+                                    img:hover{
+                                        transform: scale(1.1);
+                                        transition: transform .5s ease;
                                     }
                                 }
                             }
-                        }
-
-                        .card_block {
-                            position: relative;
-                            width: 100%;
-
-                            .card {
-                                a {}
-                            }
-
-                            .card {
-                                .ccard {
+                            .ccard {
                                     position: absolute;
-                                    top: 50%;
-                                    left: 50%;
-                                    transform: translate(-56%, -60%);
+                                    transform: translate(-4%, -60%);
                                     width: 91%;
                                     border-radius: 6px;
                                     background-color: white;
                                     padding: 24px;
-
                                     h3 {
+                                        width:145px;
                                         a {
                                             color: #383838;
+                                            border-bottom: none;
                                         }
                                     }
+                                    h3:hover a{
+                                        color: #ff5938;
+                                    }
 
-                                    P {}
+                                    P {
+                                        position: relative;
+                                    }
 
                                     a {
                                         border-bottom: 2px solid #ff5938;
                                         color: #ff5938;
                                     }
                                 }
-                            }
                         }
                     }
                 }
@@ -526,11 +522,15 @@ body {
                             grid-column-start: 2;
                             grid-column-end: 3;
 
-                            img {}
+                            img {
+                                position: relative;
+                            }
                         }
 
                         .all-5 {
-                            img {}
+                            img {
+                                position: relative;
+                            }
                         }
 
                         .all-6 {
@@ -539,7 +539,9 @@ body {
                             grid-row-start: 1;
                             grid-row-end: 3;
 
-                            img {}
+                            img {
+                                position: relative;
+                            }
                         }
                     }
                 }
@@ -548,8 +550,10 @@ body {
 
         .contact {
             position: relative;
+
             .container {
                 height: 50px;
+
                 .row {
                     text-align: center;
                     border-radius: 5px;
@@ -620,7 +624,8 @@ body {
         .company {
             display: flex;
             margin-top: 120px;
-        .container {
+
+            .container {
                 display: flex;
                 justify-content: center;
 
@@ -649,7 +654,7 @@ body {
                                 img {
                                     width: 110px;
                                     height: 35px;
-                                    margin: 24px 41px;
+                                    margin: 24px 38px;
                                 }
                             }
                         }
@@ -659,96 +664,97 @@ body {
         }
     }
 
-        .footer {
-            background: #261f44;
+    .footer {
+        background: #261f44;
+        color: #6f6985;
+        padding-bottom: 40px;
+        margin-top: 120px;
+
+        a {
             color: #6f6985;
-            padding-bottom: 40px;
-            margin-top: 120px;
-            a {
-                color: #6f6985;
-            }
-            a:hover {
-                color: #d5d4d9;
-            }
-            .container {
-                padding: 120px 0 0 0;
-                .row {
-                    padding-bottom: 20px;
+        }
 
-                    .pos {
-                        width: 190px;
-                        height: 225px;
+        a:hover {
+            color: #d5d4d9;
+        }
 
-                        h4 {
-                            color: #fff;
-                        }
+        .container {
+            padding: 120px 0 0 0;
 
-                        ul {
-                            display: flex;
-                            list-style-type: none;
-                            padding: 5px;
-                            flex-direction: row;
-                            .list-unstyled{
-                                li {
-                                    list-style-type: none;
-                                    padding: 5px;
-                                }
-                            }
-                        }
+            .row {
+                padding-bottom: 20px;
+
+                .pos {
+                    width: 190px;
+                    height: 225px;
+
+                    h4 {
+                        color: #fff;
+                        margin-left: 5px;
                     }
 
-                    .poss {
-                        height: 225px;
-                        width: 400px;
-
-                        h4 {
-                            color: #fff;
-                        }
-
-                        .text {
-                            position: relative;
-
-                            p {
-                                color: #6f6985;
-                            }
-
-                            form {
-                                .form {
-                                    position: relative;
-
-                                    input {
-                                        margin-bottom: 15px;
-                                    }
-                                }
-
-                                button {
-                                    padding: 10px;
-                                    border-radius: 5px;
-                                    background-color: #ff5938;
-                                    border-color: #ff5938;
-                                    color: #fff;
-                                }
-                            }
-                        }
+                    ul {
+                        display: flex;
+                        list-style-type: none;
                     }
 
-                    .inc {
+                    li {
+                        list-style-type: none;
+                        padding: 5px;
+                    }
+                }
+
+                .poss {
+                    height: 225px;
+                    width: 400px;
+
+                    h4 {
+                        color: #fff;
+                        margin-left: 5px;
+                    }
+
+                    .text {
                         position: relative;
 
-                        .ul {
-                            display: flex;
-                            list-style-type: none;
-                            padding: 5px;
-                            flex-direction: row;
-                            .list-unstyled{
-                                li {
-                                    list-style-type: none;
-                                    padding: 5px;
+                        p {
+                            color: #6f6985;
+                        }
+
+                        form {
+                            .form {
+                                position: relative;
+
+                                input {
+                                    margin-bottom: 15px;
                                 }
+                            }
+
+                            button {
+                                padding: 10px;
+                                border-radius: 5px;
+                                background-color: #ff5938;
+                                border-color: #ff5938;
+                                color: #fff;
                             }
                         }
                     }
                 }
             }
+
+            .inc {
+                position: relative;
+
+                ul {
+                    display: flex;
+                    list-style-type: none;
+                    flex-direction: row;
+                }
+
+                li {
+                    list-style-type: none;
+                    padding: 5px;
+                }
+            }
         }
+    }
 }
